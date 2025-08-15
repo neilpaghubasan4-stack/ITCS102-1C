@@ -1,0 +1,4 @@
+name = input("Input something:")
+
+print("You typed", name)
+print(type(name))
