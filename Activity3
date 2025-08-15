@@ -1,0 +1,5 @@
+print("Hello\nWorld.", "\t\t represents line.")
+print("Hello World\b.", "\t represents backspace.")
+print("Hello\t World.", "represents tab.")
+print("Hello \rWorld.", "\t\t represents carriage return.")
+print("Hello \\World.", "represents literal backslash.")
