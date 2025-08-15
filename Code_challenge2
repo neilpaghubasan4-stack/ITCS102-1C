@@ -1,0 +1,39 @@
+Amount = eval(input("Enter amount to deposit:"))
+
+a = Amount // 1000
+Amount = Amount % 1000
+
+b = Amount // 500
+Amount = Amount % 500
+
+c = Amount // 200
+Amount = Amount % 200
+
+d = Amount // 100
+Amount = Amount % 100
+
+e = Amount // 50
+Amount = Amount % 50
+
+f = Amount // 20
+Amount = Amount % 20
+
+g = Amount // 10
+Amount = Amount % 10
+
+h = Amount // 5
+Amount = Amount % 5
+
+i = Amount // 1
+Amount = Amount % 1
+
+print("Here is a breakdown of your deposit:")
+print("1000" ,a)
+print("500" ,b)
+print("200" ,c)
+print("100" ,d)
+print("50" ,e)
+print("20" ,f)
+print("10" ,g)
+print("5" ,h)
+print("1" ,i)
