@@ -1,0 +1,11 @@
+a = 110
+
+print("The value of a is" ,a)
+
+a += 40
+a -= 25
+a *= 2
+a /= 2
+a *= 4
+
+print("The value of a is" ,a)
