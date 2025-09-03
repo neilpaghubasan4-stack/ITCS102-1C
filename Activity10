@@ -1,0 +1,12 @@
+from getpass import getpass
+
+Username = 'Neil'
+Password = 'paghubasan'
+
+User = input("Input your username:")
+Pass = getpass("Input your password:")
+
+if (Username == User) and (Password == Pass):
+  print("Welcome!")
+else:
+  print("Incorrect password or username")
