@@ -3,7 +3,7 @@ print("Pick a genre:")
 print("1. Action")
 print("2. Romcom")
 print("3. Supernatural")
-genre = input("Select genre:").lower()
+genre = input("Type the genre you want:").lower()
 
 if genre == "action":
     print("You have chosen the Action genre.")
@@ -16,10 +16,10 @@ if genre == "action":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available short action manga by the year 2010:")
+            print("These are the available short action manga by the year 2010: \nRed Sprite and Enigma")
             
         elif decade == "2020":
-            print("These are the available short action manga by the year 2020:")
+            print("These are the available short action manga by the year 2020: \nRosen Garten Saga and Kiruru Kill Me")
             
         else:
             print("Invalid. Choose from the bracket.")       
@@ -30,10 +30,10 @@ if genre == "action":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available medium action manga by the year 2010:")
+            print("These are the available medium action manga by the year 2010: \nBeelzebub and Deadman Wonderland")
             
         elif decade == "2020":
-            print("These are the available medium action manga by the year 2020:")
+            print("These are the available medium action manga by the year 2020: \nKaiju No. 8 and Sakamoto Days")
             
         else:
             print("Invalid. Choose from the bracket.") 
@@ -44,13 +44,16 @@ if genre == "action":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available long action manga by the year 2010:")
+            print("These are the available long action manga by the year 2010: \nBlue Exorcist and Attack on Titan")
             
         elif decade == "2020":
-            print("These are the available long action manga by the year 2020:")
+            print("These are the available long action manga by the year 2020: \nNinja vs. Gokudo and Tokyo Duel")
             
         else:
             print("Invalid. Choose from the bracket.")  
+            
+    else:
+        print("Invalid. Choose from the bracket.")
             
 elif genre == "romcom":
     print("You have chosen the Romcom genre.")
@@ -63,10 +66,10 @@ elif genre == "romcom":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available short romcom manga by the year 2010:")
+            print("These are the available short romcom manga by the year 2010: \nOjousama no Untenshu and Ojousama no Mission")
             
         elif decade == "2020":
-            print("These are the available short romcom manga by the year 2020:")
+            print("These are the available short romcom manga by the year 2020: \nNew Normal and You're My Cutie!!")
             
         else:
             print("Invalid. Choose from the bracket.")       
@@ -77,10 +80,10 @@ elif genre == "romcom":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available medium romcom manga by the year 2010:")
+            print("These are the available medium romcom manga by the year 2010: \nHiyokoi and Imori 201")
             
         elif decade == "2020":
-            print("These are the available medium romcom manga by the year 2020:")
+            print("These are the available medium romcom manga by the year 2020: \nKoi to Yobu ni wa Kimochi Warui (Its Disgusting to Call This Love) and Senpai ga Uzai Kouhai no Hanashi (My Senpai is Annoying)")
             
         else:
             print("Invalid. Choose from the bracket.") 
@@ -91,13 +94,16 @@ elif genre == "romcom":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available long romcom manga by the year 2010:")
+            print("These are the available long romcom manga by the year 2010: \nDengeki Daisy and Nana to Kaoru (Nana & Kaoru)")
             
         elif decade == "2020":
-            print("These are the available long romcom manga by the year 2020:")
+            print("These are the available long romcom manga by the year 2020: \nYoure My Cutie!! (Kawaii Nante Kiitenai!!) and Himegasaki Sakurako Is a Hot Mess")
             
         else:
             print("Invalid. Choose from the bracket.")  
+            
+    else:
+        print("Invalid. Choose from the bracket.")        
             
 elif genre == "supernatural":
     print("You have chosen the Supernatural genre.")
@@ -110,10 +116,10 @@ elif genre == "supernatural":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available short supernatural manga by the year 2010:")
+            print("These are the available short supernatural manga by the year 2010: \nEnigma and Kamikamikaeshi")
             
         elif decade == "2020":
-            print("These are the available short supernatural manga by the year 2020:")
+            print("These are the available short supernatural manga by the year 2020: \nVenus in the Blind Spot and Shaman King: Red Crimson")
             
         else:
             print("Invalid. Choose from the bracket.")       
@@ -124,10 +130,10 @@ elif genre == "supernatural":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available medium supernatural manga by the year 2010:")
+            print("These are the available medium supernatural manga by the year 2010: \nHinamatsuri and Noragami")
             
         elif decade == "2020":
-            print("These are the available medium supernatural manga by the year 2020:")
+            print("These are the available medium supernatural manga by the year 2020: \nShaman King: Marcos and Shaman King & a Garden")
             
         else:
             print("Invalid. Choose from the bracket.") 
@@ -138,13 +144,16 @@ elif genre == "supernatural":
         decade = input("Select decade: ")
         
         if decade == "2010":
-            print("These are the available long supernatural manga by the year 2010:")
+            print("There are currently no available long supernatural manga by the year 2010:")
             
         elif decade == "2020":
-            print("These are the available long supernatural manga by the year 2020:")
+            print("There are no currrenly available long supernatural manga by the year 2020:")
             
         else:
             print("Invalid. Choose from the bracket.")            
+        
+    else:
+        print("Invalid. Choose from the bracket.")   
         
 else:
     print("Invalid. Choose from the numbers.")        
