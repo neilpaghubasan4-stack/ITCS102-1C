@@ -1,0 +1,12 @@
+isDirty = True
+
+while isDirty == True:
+    wash = input("Continue washing the clothes?").lower()
+
+    if wash == "yes":
+        print("Washing clothes again . . .")
+        continue
+    else:
+        print("Washing stops . . .")
+        break
+        isDirty = False
