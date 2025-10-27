@@ -1,0 +1,5 @@
+number = eval(input("Enter a number: "))
+factorial = 1
+for x in range(number,0,-1):
+    factorial *= x
+print(f"The factorial of {number} is {factorial}")
