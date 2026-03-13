@@ -1,7 +1,7 @@
 import tkinter as nails
 
 window = nails.Tk()
-window.title("Sîmplè Càlçülâtèr")
+window.title("Calculator")
 window.configure(bg="skyblue")
 window.geometry("500x500")
 window.resizable(True ,True)
